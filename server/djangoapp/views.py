@@ -91,7 +91,7 @@ def registration(request):
 
 # # Update the `get_dealerships` view to render the index page with
 # a list of dealerships
-def get_dealerships(request):
+def get_dealerships(request, state="All"):
 # ...
     if(state == "All"):
         endpoint = "/fetchDealers"
