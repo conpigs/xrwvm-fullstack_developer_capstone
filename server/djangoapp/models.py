@@ -1,5 +1,3 @@
-# Uncomment the following imports before adding the Model code
-
 from django.db import models
 from django.core.validators import MaxValueValidator, MinValueValidator
 
